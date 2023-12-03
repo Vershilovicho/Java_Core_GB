@@ -27,7 +27,7 @@ public class Main {
             account2.deposit(-100);
             account3.deposit(100);
 
-            account1.cashWithdrawal(100);
+            account1.cashWithdrawal(50);
             account2.cashWithdrawal(200);
             account3.cashWithdrawal(1000);
         } catch (IllegalArgumentException e) {
