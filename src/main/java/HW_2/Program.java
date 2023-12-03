@@ -10,7 +10,7 @@ public class Program {
 
     private static final int WIN_COUNT = 4;
 
-    private static final Scanner scanner = new Scanner(System.in);
+    public static final Scanner scanner = new Scanner(System.in);
     private static final Random random = new Random();
 
     private static  char[][] field;
