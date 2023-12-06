@@ -9,7 +9,7 @@ import java.nio.channels.FileChannel;
 public class Backup {
 
     public static void main(String[] args) {
-        File initialDir = new File("D:/Обучение/geekBrains/java_core/jcore/src/main/java/HW_5/source");
+        File initialDir = new File("D:/Обучение/geekBrains/java_core/jcore/src/main/java/HW_5/initial");
         backupDirectory(initialDir, "D:/Обучение/geekBrains/java_core/jcore/src/main/java/HW_5/backup");
     }
 
