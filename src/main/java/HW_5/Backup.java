@@ -19,7 +19,6 @@ public class Backup {
             System.out.println("Данный путь не является директорией или не существует.");
             return;
         }
-
         File backupDir = new File(backupPath);
         if (!backupDir.exists()) {
             backupDir.mkdir();
